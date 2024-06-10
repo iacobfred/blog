@@ -115,7 +115,7 @@
     "nginxbeautifier": "^1.0.19",
     "postcss": "^8.4.38",
     "prettier": "^3.3.1",
-    "prettier-eslint": "^15.0.1",
+    "prettier-eslint": "^16.3.0",
     "prettier-plugin-multiline-arrays": "^3.0.6",
     "prettier-plugin-organize-imports": "^3.2.4",
     "prettier-plugin-packagejson": "^2.5.0",
