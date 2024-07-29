@@ -107,7 +107,7 @@ jobs:
           name: dotenv-${{ github.sha }}-${{ github.run_id }}
       - name: Read dotenv file
         id: dotenv
-        uses: falti/dotenv-action@v1.1.2
+        uses: falti/dotenv-action@v1.1.4
         with:
           path: .env
       - name: Set up Docker Buildx
