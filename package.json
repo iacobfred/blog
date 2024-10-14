@@ -18,7 +18,7 @@
     "@next/mdx": "^12.3.4",
     "@sentry/nextjs": "^7.118.0",
     "accept-language": "^3.0.18",
-    "cookies-next": "^2.1.2",
+    "cookies-next": "^4.3.0",
     "date-fns": "^2.30.0",
     "dotenv": "^16.4.5",
     "glob": "^10.4.5",
