@@ -160,7 +160,7 @@ jobs:
       - name: Build image with cache
         id: build_with_cache
         # https://github.com/docker/build-push-action
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           build-args: |
             PORT=${{ vars.PORT }}
@@ -174,7 +174,7 @@ jobs:
           tags: ghcr.io/jacobjove/jacobjove:${{ github.sha }},ghcr.io/jacobjove/jacobjove:latest
       - name: Build image without cache
         if: ${{ failure() && steps.build_with_cache.outcome == 'failure' }}
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           build-args: |
             PORT=${{ vars.PORT }}
